@@ -68,7 +68,6 @@ const Register = () => {
                   onChange={(e) => setEmail(e.target.value)}
                 />
                 <small>
-                  {" "}
                   {errors.email && (
                     <div className="text-danger">{errors.email}</div>
                   )}
