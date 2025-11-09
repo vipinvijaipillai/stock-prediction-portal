@@ -75,7 +75,7 @@ const Login = () => {
                   className="btn btn-info d-block mx-auto"
                   disabled
                 >
-                  <FontAwesomeIcon icon={faSpinner} spin /> Logging in...{" "}
+                  <FontAwesomeIcon icon={faSpinner} spin /> Logging in...
                 </button>
               ) : (
                 <button type="submit" className="btn btn-info d-block mx-auto">
